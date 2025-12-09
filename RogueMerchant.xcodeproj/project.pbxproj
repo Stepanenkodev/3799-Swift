@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26D53221F44475DDF9F9BC54 /* Pods_RogueMerchant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47AC51F14320E4C425C9BF1 /* Pods_RogueMerchant.framework */; };
+		725FAF1A2EE88A8700A36E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725FAF172EE88A8700A36E06 /* Assets.xcassets */; };
+		725FAF1B2EE88A8700A36E06 /* RogueMerchantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF182EE88A8700A36E06 /* RogueMerchantApp.swift */; };
+		725FAF272EE88AF900A36E06 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF1E2EE88AF900A36E06 /* View+Extensions.swift */; };
+		725FAF282EE88AF900A36E06 /* RMLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF242EE88AF900A36E06 /* RMLaunchView.swift */; };
+		725FAF292EE88AF900A36E06 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF202EE88AF900A36E06 /* ShapeStyle+Extensions.swift */; };
+		725FAF2A2EE88AF900A36E06 /* RMHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF222EE88AF900A36E06 /* RMHomeWebView.swift */; };
+		725FAF2B2EE88AF900A36E06 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF1F2EE88AF900A36E06 /* Color+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F866798A6A1DDF44149A780 /* Pods-RogueMerchant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RogueMerchant.release.xcconfig"; path = "Target Support Files/Pods-RogueMerchant/Pods-RogueMerchant.release.xcconfig"; sourceTree = "<group>"; };
+		725FAF082EE88A6200A36E06 /* RogueMerchant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RogueMerchant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		725FAF172EE88A8700A36E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		725FAF182EE88A8700A36E06 /* RogueMerchantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RogueMerchantApp.swift; sourceTree = "<group>"; };
+		725FAF1D2EE88AEE00A36E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		725FAF1E2EE88AF900A36E06 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		725FAF1F2EE88AF900A36E06 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		725FAF202EE88AF900A36E06 /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
+		725FAF222EE88AF900A36E06 /* RMHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMHomeWebView.swift; sourceTree = "<group>"; };
+		725FAF242EE88AF900A36E06 /* RMLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLaunchView.swift; sourceTree = "<group>"; };
+		D112F6109A7D08E4D78E9539 /* Pods-RogueMerchant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RogueMerchant.debug.xcconfig"; path = "Target Support Files/Pods-RogueMerchant/Pods-RogueMerchant.debug.xcconfig"; sourceTree = "<group>"; };
+		E47AC51F14320E4C425C9BF1 /* Pods_RogueMerchant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RogueMerchant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		725FAF052EE88A6200A36E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D53221F44475DDF9F9BC54 /* Pods_RogueMerchant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		725FAEFF2EE88A6200A36E06 = {
+			isa = PBXGroup;
+			children = (
+				725FAF192EE88A8700A36E06 /* RogueMerchant */,
+				725FAF092EE88A6200A36E06 /* Products */,
+				D7D60BD518C06A41FC6C0BC6 /* Pods */,
+				A976DC3484EAF7F6D5D16D3F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		725FAF092EE88A6200A36E06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				725FAF082EE88A6200A36E06 /* RogueMerchant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		725FAF192EE88A8700A36E06 /* RogueMerchant */ = {
+			isa = PBXGroup;
+			children = (
+				725FAF212EE88AF900A36E06 /* Extensions */,
+				725FAF262EE88AF900A36E06 /* Screens */,
+				725FAF1D2EE88AEE00A36E06 /* Info.plist */,
+				725FAF1C2EE88A8C00A36E06 /* App */,
+				725FAF172EE88A8700A36E06 /* Assets.xcassets */,
+			);
+			path = RogueMerchant;
+			sourceTree = "<group>";
+		};
+		725FAF1C2EE88A8C00A36E06 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				725FAF182EE88A8700A36E06 /* RogueMerchantApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		725FAF212EE88AF900A36E06 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				725FAF1E2EE88AF900A36E06 /* View+Extensions.swift */,
+				725FAF1F2EE88AF900A36E06 /* Color+Extensions.swift */,
+				725FAF202EE88AF900A36E06 /* ShapeStyle+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		725FAF232EE88AF900A36E06 /* HomeWebScreen */ = {
+			isa = PBXGroup;
+			children = (
+				725FAF222EE88AF900A36E06 /* RMHomeWebView.swift */,
+			);
+			path = HomeWebScreen;
+			sourceTree = "<group>";
+		};
+		725FAF252EE88AF900A36E06 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				725FAF242EE88AF900A36E06 /* RMLaunchView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		725FAF262EE88AF900A36E06 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				725FAF232EE88AF900A36E06 /* HomeWebScreen */,
+				725FAF252EE88AF900A36E06 /* LaunchScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A976DC3484EAF7F6D5D16D3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E47AC51F14320E4C425C9BF1 /* Pods_RogueMerchant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7D60BD518C06A41FC6C0BC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D112F6109A7D08E4D78E9539 /* Pods-RogueMerchant.debug.xcconfig */,
+				5F866798A6A1DDF44149A780 /* Pods-RogueMerchant.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		725FAF072EE88A6200A36E06 /* RogueMerchant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725FAF142EE88A6400A36E06 /* Build configuration list for PBXNativeTarget "RogueMerchant" */;
+			buildPhases = (
+				F1C0BBA91117EFC0C2A74153 /* [CP] Check Pods Manifest.lock */,
+				725FAF042EE88A6200A36E06 /* Sources */,
+				725FAF052EE88A6200A36E06 /* Frameworks */,
+				725FAF062EE88A6200A36E06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RogueMerchant;
+			productName = RogueMerchant;
+			productReference = 725FAF082EE88A6200A36E06 /* RogueMerchant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		725FAF002EE88A6200A36E06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					725FAF072EE88A6200A36E06 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 725FAF032EE88A6200A36E06 /* Build configuration list for PBXProject "RogueMerchant" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 725FAEFF2EE88A6200A36E06;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 55;
+			productRefGroup = 725FAF092EE88A6200A36E06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				725FAF072EE88A6200A36E06 /* RogueMerchant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		725FAF062EE88A6200A36E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725FAF1A2EE88A8700A36E06 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F1C0BBA91117EFC0C2A74153 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RogueMerchant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		725FAF042EE88A6200A36E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725FAF1B2EE88A8700A36E06 /* RogueMerchantApp.swift in Sources */,
+				725FAF272EE88AF900A36E06 /* View+Extensions.swift in Sources */,
+				725FAF282EE88AF900A36E06 /* RMLaunchView.swift in Sources */,
+				725FAF292EE88AF900A36E06 /* ShapeStyle+Extensions.swift in Sources */,
+				725FAF2A2EE88AF900A36E06 /* RMHomeWebView.swift in Sources */,
+				725FAF2B2EE88AF900A36E06 /* Color+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		725FAF122EE88A6400A36E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		725FAF132EE88A6400A36E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		725FAF152EE88A6400A36E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D112F6109A7D08E4D78E9539 /* Pods-RogueMerchant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RogueMerchant/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rogue Merchant";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stepanenkoproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		725FAF162EE88A6400A36E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F866798A6A1DDF44149A780 /* Pods-RogueMerchant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RogueMerchant/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rogue Merchant";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stepanenkoproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		725FAF032EE88A6200A36E06 /* Build configuration list for PBXProject "RogueMerchant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725FAF122EE88A6400A36E06 /* Debug */,
+				725FAF132EE88A6400A36E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725FAF142EE88A6400A36E06 /* Build configuration list for PBXNativeTarget "RogueMerchant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725FAF152EE88A6400A36E06 /* Debug */,
+				725FAF162EE88A6400A36E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 725FAF002EE88A6200A36E06 /* Project object */;
+}
