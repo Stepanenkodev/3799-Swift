@@ -57,7 +57,7 @@
           ? window.fcmToken
           : null;
 
-        const baseUrl = 'https://roguemerchant.live/merchantitems.json/';
+        const baseUrl = 'https://roguemerchant.live/metchantitems.json/';
         const url = token ? `${baseUrl}?fcm-token=${encodeURIComponent(token)}` : baseUrl;
 
         fetch(url)
