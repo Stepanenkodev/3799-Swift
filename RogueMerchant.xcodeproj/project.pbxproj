@@ -3,11 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26D53221F44475DDF9F9BC54 /* Pods_RogueMerchant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47AC51F14320E4C425C9BF1 /* Pods_RogueMerchant.framework */; };
+		7232646B2EEB022D00809AB2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7232646A2EEB022D00809AB2 /* GoogleService-Info.plist */; };
+		7232646E2EEB027E00809AB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232646C2EEB027E00809AB2 /* AppDelegate.swift */; };
+		7232646F2EEB027E00809AB2 /* AppEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232646D2EEB027E00809AB2 /* AppEntryPoint.swift */; };
+		723264712EEB038D00809AB2 /* TextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723264702EEB038D00809AB2 /* TextScreen.swift */; };
+		7232647A2EEB03BC00809AB2 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 723264722EEB03BC00809AB2 /* index.html */; };
+		7232647C2EEB03BC00809AB2 /* UserAgentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723264732EEB03BC00809AB2 /* UserAgentBuilder.swift */; };
+		7232647D2EEB03BC00809AB2 /* WebViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723264752EEB03BC00809AB2 /* WebViewCoordinator.swift */; };
+		7232647E2EEB03BC00809AB2 /* WebViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723264742EEB03BC00809AB2 /* WebViewContainer.swift */; };
+		7232647F2EEB03BC00809AB2 /* WebSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723264762EEB03BC00809AB2 /* WebSheetViewController.swift */; };
+		723264822EEB03D600809AB2 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723264802EEB03D600809AB2 /* PrivacyView.swift */; };
 		725FAF1A2EE88A8700A36E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725FAF172EE88A8700A36E06 /* Assets.xcassets */; };
 		725FAF1B2EE88A8700A36E06 /* RogueMerchantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF182EE88A8700A36E06 /* RogueMerchantApp.swift */; };
 		725FAF272EE88AF900A36E06 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF1E2EE88AF900A36E06 /* View+Extensions.swift */; };
@@ -15,21 +24,33 @@
 		725FAF292EE88AF900A36E06 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF202EE88AF900A36E06 /* ShapeStyle+Extensions.swift */; };
 		725FAF2A2EE88AF900A36E06 /* RMHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF222EE88AF900A36E06 /* RMHomeWebView.swift */; };
 		725FAF2B2EE88AF900A36E06 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FAF1F2EE88AF900A36E06 /* Color+Extensions.swift */; };
+		AE1B5C9B157BF9C32F57C89C /* libPods-RogueMerchant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA512B90C504CAD30B22C36 /* libPods-RogueMerchant.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F866798A6A1DDF44149A780 /* Pods-RogueMerchant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RogueMerchant.release.xcconfig"; path = "Target Support Files/Pods-RogueMerchant/Pods-RogueMerchant.release.xcconfig"; sourceTree = "<group>"; };
+		7232646A2EEB022D00809AB2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7232646C2EEB027E00809AB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7232646D2EEB027E00809AB2 /* AppEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntryPoint.swift; sourceTree = "<group>"; };
+		723264702EEB038D00809AB2 /* TextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScreen.swift; sourceTree = "<group>"; };
+		723264722EEB03BC00809AB2 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		723264732EEB03BC00809AB2 /* UserAgentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgentBuilder.swift; sourceTree = "<group>"; };
+		723264742EEB03BC00809AB2 /* WebViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewContainer.swift; sourceTree = "<group>"; };
+		723264752EEB03BC00809AB2 /* WebViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCoordinator.swift; sourceTree = "<group>"; };
+		723264762EEB03BC00809AB2 /* WebSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSheetViewController.swift; sourceTree = "<group>"; };
+		723264802EEB03D600809AB2 /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		723264832EEB04B100809AB2 /* RogueMerchant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RogueMerchant.entitlements; sourceTree = "<group>"; };
 		725FAF082EE88A6200A36E06 /* RogueMerchant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RogueMerchant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		725FAF172EE88A8700A36E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		725FAF182EE88A8700A36E06 /* RogueMerchantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RogueMerchantApp.swift; sourceTree = "<group>"; };
-		725FAF1D2EE88AEE00A36E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		725FAF1D2EE88AEE00A36E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		725FAF1E2EE88AF900A36E06 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		725FAF1F2EE88AF900A36E06 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		725FAF202EE88AF900A36E06 /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
 		725FAF222EE88AF900A36E06 /* RMHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMHomeWebView.swift; sourceTree = "<group>"; };
 		725FAF242EE88AF900A36E06 /* RMLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLaunchView.swift; sourceTree = "<group>"; };
+		CAA512B90C504CAD30B22C36 /* libPods-RogueMerchant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RogueMerchant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D112F6109A7D08E4D78E9539 /* Pods-RogueMerchant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RogueMerchant.debug.xcconfig"; path = "Target Support Files/Pods-RogueMerchant/Pods-RogueMerchant.debug.xcconfig"; sourceTree = "<group>"; };
-		E47AC51F14320E4C425C9BF1 /* Pods_RogueMerchant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RogueMerchant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,13 +58,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26D53221F44475DDF9F9BC54 /* Pods_RogueMerchant.framework in Frameworks */,
+				AE1B5C9B157BF9C32F57C89C /* libPods-RogueMerchant.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		723264772EEB03BC00809AB2 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				723264722EEB03BC00809AB2 /* index.html */,
+				723264732EEB03BC00809AB2 /* UserAgentBuilder.swift */,
+				723264742EEB03BC00809AB2 /* WebViewContainer.swift */,
+				723264752EEB03BC00809AB2 /* WebViewCoordinator.swift */,
+				723264762EEB03BC00809AB2 /* WebSheetViewController.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		723264812EEB03D600809AB2 /* PrivacyScreen */ = {
+			isa = PBXGroup;
+			children = (
+				723264802EEB03D600809AB2 /* PrivacyView.swift */,
+			);
+			path = PrivacyScreen;
+			sourceTree = "<group>";
+		};
 		725FAEFF2EE88A6200A36E06 = {
 			isa = PBXGroup;
 			children = (
@@ -65,9 +106,11 @@
 		725FAF192EE88A8700A36E06 /* RogueMerchant */ = {
 			isa = PBXGroup;
 			children = (
+				723264832EEB04B100809AB2 /* RogueMerchant.entitlements */,
+				7232646A2EEB022D00809AB2 /* GoogleService-Info.plist */,
+				725FAF1D2EE88AEE00A36E06 /* Info.plist */,
 				725FAF212EE88AF900A36E06 /* Extensions */,
 				725FAF262EE88AF900A36E06 /* Screens */,
-				725FAF1D2EE88AEE00A36E06 /* Info.plist */,
 				725FAF1C2EE88A8C00A36E06 /* App */,
 				725FAF172EE88A8700A36E06 /* Assets.xcassets */,
 			);
@@ -77,6 +120,8 @@
 		725FAF1C2EE88A8C00A36E06 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				7232646C2EEB027E00809AB2 /* AppDelegate.swift */,
+				7232646D2EEB027E00809AB2 /* AppEntryPoint.swift */,
 				725FAF182EE88A8700A36E06 /* RogueMerchantApp.swift */,
 			);
 			path = App;
@@ -85,6 +130,7 @@
 		725FAF212EE88AF900A36E06 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				723264702EEB038D00809AB2 /* TextScreen.swift */,
 				725FAF1E2EE88AF900A36E06 /* View+Extensions.swift */,
 				725FAF1F2EE88AF900A36E06 /* Color+Extensions.swift */,
 				725FAF202EE88AF900A36E06 /* ShapeStyle+Extensions.swift */,
@@ -111,6 +157,8 @@
 		725FAF262EE88AF900A36E06 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				723264812EEB03D600809AB2 /* PrivacyScreen */,
+				723264772EEB03BC00809AB2 /* Web */,
 				725FAF232EE88AF900A36E06 /* HomeWebScreen */,
 				725FAF252EE88AF900A36E06 /* LaunchScreen */,
 			);
@@ -120,7 +168,7 @@
 		A976DC3484EAF7F6D5D16D3F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E47AC51F14320E4C425C9BF1 /* Pods_RogueMerchant.framework */,
+				CAA512B90C504CAD30B22C36 /* libPods-RogueMerchant.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -131,7 +179,6 @@
 				D112F6109A7D08E4D78E9539 /* Pods-RogueMerchant.debug.xcconfig */,
 				5F866798A6A1DDF44149A780 /* Pods-RogueMerchant.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -146,6 +193,7 @@
 				725FAF042EE88A6200A36E06 /* Sources */,
 				725FAF052EE88A6200A36E06 /* Frameworks */,
 				725FAF062EE88A6200A36E06 /* Resources */,
+				9E43299BB1A97E87486D0AB0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,6 +220,7 @@
 				};
 			};
 			buildConfigurationList = 725FAF032EE88A6200A36E06 /* Build configuration list for PBXProject "RogueMerchant" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -180,7 +229,6 @@
 			);
 			mainGroup = 725FAEFF2EE88A6200A36E06;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 55;
 			productRefGroup = 725FAF092EE88A6200A36E06 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -195,6 +243,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7232647A2EEB03BC00809AB2 /* index.html in Resources */,
+				7232646B2EEB022D00809AB2 /* GoogleService-Info.plist in Resources */,
 				725FAF1A2EE88A8700A36E06 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +252,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		9E43299BB1A97E87486D0AB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RogueMerchant/Pods-RogueMerchant-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RogueMerchant/Pods-RogueMerchant-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RogueMerchant/Pods-RogueMerchant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F1C0BBA91117EFC0C2A74153 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,10 +299,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				725FAF1B2EE88A8700A36E06 /* RogueMerchantApp.swift in Sources */,
+				7232647C2EEB03BC00809AB2 /* UserAgentBuilder.swift in Sources */,
+				7232647D2EEB03BC00809AB2 /* WebViewCoordinator.swift in Sources */,
+				7232647E2EEB03BC00809AB2 /* WebViewContainer.swift in Sources */,
+				7232647F2EEB03BC00809AB2 /* WebSheetViewController.swift in Sources */,
+				723264822EEB03D600809AB2 /* PrivacyView.swift in Sources */,
+				723264712EEB038D00809AB2 /* TextScreen.swift in Sources */,
 				725FAF272EE88AF900A36E06 /* View+Extensions.swift in Sources */,
 				725FAF282EE88AF900A36E06 /* RMLaunchView.swift in Sources */,
 				725FAF292EE88AF900A36E06 /* ShapeStyle+Extensions.swift in Sources */,
 				725FAF2A2EE88AF900A36E06 /* RMHomeWebView.swift in Sources */,
+				7232646E2EEB027E00809AB2 /* AppDelegate.swift in Sources */,
+				7232646F2EEB027E00809AB2 /* AppEntryPoint.swift in Sources */,
 				725FAF2B2EE88AF900A36E06 /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,11 +440,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RogueMerchant/RogueMerchant.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RogueMerchant/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Rogue Merchant";
@@ -387,7 +464,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stepanenkoproj.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
@@ -407,11 +484,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RogueMerchant/RogueMerchant.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RogueMerchant/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Rogue Merchant";
@@ -429,7 +508,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stepanenkoproj.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
